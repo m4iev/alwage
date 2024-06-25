@@ -363,6 +363,7 @@ header {
   }
 
   .nav_links {
+    display: none;
     background-color: var(--text-dark);
     position: absolute;
     top: 12%;
@@ -377,6 +378,7 @@ header {
   }
 
   .nav_links.open {
+    display: flex;
     right: 2%;
   }
 
