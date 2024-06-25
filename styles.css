@@ -366,9 +366,9 @@ header {
     background-color: var(--text-dark);
     position: absolute;
     top: 12%;
-    right: -100%;
+    right: 2%;
     width: 270px;
-    height: 22vh;
+    height: 24vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
