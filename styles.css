@@ -324,6 +324,14 @@ header {
   .instagram_grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .header_image {
+    display: none;
+  }
+
+  .kerah-image {
+    display: none;
+  }
 }
 
 @media (width < 600px) {
@@ -340,6 +348,10 @@ header {
   }
 
   .header_image {
+    display: none;
+  }
+
+  .kerah-image {
     display: none;
   }
 
