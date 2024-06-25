@@ -60,11 +60,6 @@ img {
   display: block;
 }
 
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -368,7 +363,7 @@ header {
   }
 
   .nav_links {
-    display: none;
+    display: none !important;
     background-color: var(--text-dark);
     position: absolute;
     top: 12%;
@@ -379,11 +374,11 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     border-radius: 10px;
-    transition: all .50s ease;
+    transition: all 1s ease;
   }
 
   .nav_links.open {
-    display: flex;
+    display: flex !important;
     right: 2%;
   }
 
